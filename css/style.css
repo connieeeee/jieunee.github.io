@@ -912,4 +912,11 @@ blockquote {
   font-weight: bold;
 }
 
+.profile-img{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	border-radius: 20%;
+}
+
 /*# sourceMappingURL=maps/style.css.map */
