@@ -36,7 +36,7 @@ p, .paragraph {
 }
 
 p-lg, .paragraph-lg {
-  font-size: 22px;
+  font-size: 17px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -919,9 +919,10 @@ blockquote {
 }
 
 .profile-box{
-	position: relative !important;
+    position: relative !important;
     height: 300px;
     width: 300px;
+    text-align: center;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
