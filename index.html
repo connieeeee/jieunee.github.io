@@ -18,13 +18,13 @@
 	(function() {
 	emailjs.init("user_mSRRz7s7MrM33q99DOapR");
 	
-	 $('input[name=submit]').click(function(){       	 
+	 $('#submit').click(function(){       	 
          
          var templateParams = {	
          //각 요소는 emailJS에서 설정한 템플릿과 동일한 명으로 작성!
-               name: $('input[name=name]').val(),
-               email : $('input[name=email]').val(),
-               message : $('textarea[name=message]').val()
+               name: $('#name').val(),
+               email : $('#email').val(),
+               message : $('#message').val()
           				};
                    
                	alert(templateParams);
@@ -609,7 +609,7 @@
                 placeholder="Type Message Here"></textarea>
             </div>
             <div class="col-lg-6 col-10 mx-auto">
-              <input type="button" name="submit" value="Send" class="btn btn-primary w-100">
+              <input type="button" name="submit" id="submit" value="Send" class="btn btn-primary w-100">
             </div>
           </form>
         </div>
