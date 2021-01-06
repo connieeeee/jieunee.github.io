@@ -26,7 +26,7 @@
 	               email : $("#email").val(),
 	               message : $("#message").val()
 	          				};
-	                   
+	                   alert("연락주셔서 감사합니다:)");
 	        emailjs.send('gmail_connie', 'template_s7p59at', templateParams)
 	        //emailjs.send('service ID', 'template ID', 보낼 내용이 담긴 객체)
 	        	    .then(function(response) {
@@ -608,7 +608,7 @@
                 placeholder="Type Message Here"></textarea>
             </div>
             <div class="col-lg-6 col-10 mx-auto">
-              <input type="submit" name="submit" id="submit" value="Send" class="btn btn-primary w-100">
+              <input type="button" name="submit" id="submit" value="Send" class="btn btn-primary w-100">
             </div>
           </form>
         </div>
