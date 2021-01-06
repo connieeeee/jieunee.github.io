@@ -19,7 +19,7 @@
 		emailjs.init("user_mSRRz7s7MrM33q99DOapR");
 		
 		 $("#submit").on("click",function(){       	 
-	         alert("ddd");
+
 	         var templateParams = {	
 	         //각 요소는 emailJS에서 설정한 템플릿과 동일한 명으로 작성!
 	               name: $("#name").val(),
@@ -27,7 +27,6 @@
 	               message : $("#message").val()
 	          				};
 	                   
-	               	alert(templateParams);
 	        emailjs.send('gmail_connie', 'template_s7p59at', templateParams)
 	        //emailjs.send('service ID', 'template ID', 보낼 내용이 담긴 객체)
 	        	    .then(function(response) {
